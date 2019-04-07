@@ -1,0 +1,22 @@
+Contain files:
+GPSWORK.fig
+GPSWORK.m
+GPSWORK.asv
+gpsdataread.m
+mergefile.m
+StackTime.m
+SecondaryFormat.fig
+SecondaryFormat.m
+
+Recommended Procedure:
+1. Put GPS and GRACE file into seprate folder.
+2. RenameExpand your folder of GPS and GRACE file.
+3. Import GPS data folder. All stations will appear on left.
+All above can be replaced by open dataset.
+4. Set Secondary Pathformat. That includes both GRACE path and GRACE filename format. The filename must contain station name(Case sensitive).
+5. Click any stationame on left, then click ShowSecondary, you may Detrend and Correspond this if you want.
+6. Read hydrology data file if you want to use them.
+
+Tools:
+Renamer.fig
+Renamer.m       %can be used to change expand name of  a folder of files(CAN'T be used for singe one!)

@@ -1,0 +1,6 @@
+Algorithm File Structure:
+gpaZhu
+Total Number of Algorithms
+Algorithms:
+Name 100*char
+Formula 300*char

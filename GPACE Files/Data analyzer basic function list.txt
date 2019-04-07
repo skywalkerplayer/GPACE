@@ -1,0 +1,7 @@
+functions:
++-*/^()[]{}
+min/max/avg/std/medium/most popular
+sum
+choose a period by annual/monthly/specific
+Detrend
+use existing function

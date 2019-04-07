@@ -1,0 +1,22 @@
+File format description of .gpd file:
+filehead            1-6     char    gpdZhu
+number of stations  7-10    int16 
+Original file path  11-111  char
+If sec contained    112-113 int8    0/1
+Original sec path   113-213 char    Null if no sec
+IfFiltered          214-215 int8    0/1
+blank               216-300
+Dirac processed     301-302 int8    0/1/2
+Shift neutralized   303-304 int8    0/1/2
+Gap filled          305-306 int8    0/1/2
+Data number bot     307-310 int16
+blank               311-400
+
+single data head:
+stationame          1-4     char
+number of datas     7-10    int16
+year range          11-14   int16
+Dirac processed     15-16   int8    0/1
+Shift neutralized   17-18   int8    0/1
+Gap filled          19-20   int8    0/1
+blank               21-100
