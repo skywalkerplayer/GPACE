@@ -7,4 +7,6 @@ Start from GPSWORK.m. Recommended way of usage is included in GPSWORKDocuments.t
 
 Static like correlation, phase difference or draconic can be performed. You may also add your own static function through DataAnalyzer view.
 
+The .env files in Test folder can't be read properly read yet due to its own special file format.
+
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
